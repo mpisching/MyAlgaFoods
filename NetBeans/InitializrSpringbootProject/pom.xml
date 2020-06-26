@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.mapsystems</groupId>
-	<artifactId>myalgafoodsapi</artifactId>
+	<artifactId>exemplospring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myalgafoods-api</name>
-	<description>API para Delivery de Alimentos</description>
+	<name>exemplospring</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -34,11 +34,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-                
-                <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 	</dependencies>
 

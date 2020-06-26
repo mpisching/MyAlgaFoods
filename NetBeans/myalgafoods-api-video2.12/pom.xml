@@ -11,7 +11,7 @@
 	<groupId>net.mapsystems</groupId>
 	<artifactId>myalgafoodsapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myalgafoods-api</name>
+	<name>myalgafoods-api-video2.12</name>
 	<description>API para Delivery de Alimentos</description>
 
 	<properties>
