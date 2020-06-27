@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
  * Esta é uma classe de negócio (serviço) cujo propósito é ativar um cliente
  * @author mpisching
  */
-@Component
+//@Component
 public class ClientActivationService {
     
     //private EmailNotification notification; //desta forma ha um forte acoplamento

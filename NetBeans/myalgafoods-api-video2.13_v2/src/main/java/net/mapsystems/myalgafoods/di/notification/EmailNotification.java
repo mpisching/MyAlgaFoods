@@ -12,16 +12,32 @@ import org.springframework.stereotype.Component;
  *
  * @author mpisching
  */
-@Component
+//@Component
 public class EmailNotification implements Notification {
+  
+    private boolean upperCase;
     
-    public EmailNotification() {
+    private String smtpServerHost;
+    
+    public EmailNotification(String smtpServerHost) {
+        this.smtpServerHost = smtpServerHost;
         System.out.println("EmailNotification...");
     }
     
     @Override
     public void notify(Client client, String message) {
-        System.out.printf("Notifying %s by email %s: %s\n", 
-                client.getName(), client.getEmail(), message);
+        
+        if (upperCase) {
+            message = message.toUpperCase();
+        }
+        
+        System.out.printf("Notifying %s by email %s on SMTP server %s: %s\n", 
+                client.getName(), client.getEmail(), this.smtpServerHost, message);
     }
+
+    public void setUpperCase(boolean upperCase) {
+        this.upperCase = upperCase;
+    }
+    
+    
 }
