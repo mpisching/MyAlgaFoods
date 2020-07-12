@@ -3,7 +3,7 @@ package net.mapsystems.myalgafoods.di.notification;
 import net.mapsystems.myalgafoods.di.model.Client;
 import org.springframework.stereotype.Component;
 
-//@Component
+//@Component //it was commented to test whether the dependency is mandatory or not. 
 public class EmailNotification implements Notification {
   
     @Override

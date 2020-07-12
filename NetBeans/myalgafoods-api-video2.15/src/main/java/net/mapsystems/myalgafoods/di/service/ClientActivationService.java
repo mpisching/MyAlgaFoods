@@ -5,6 +5,7 @@
  */
 package net.mapsystems.myalgafoods.di.service;
 
+import java.util.List;
 import net.mapsystems.myalgafoods.di.model.Client;
 import net.mapsystems.myalgafoods.di.notification.EmailNotification;
 import net.mapsystems.myalgafoods.di.notification.Notification;
@@ -26,6 +27,6 @@ public class ClientActivationService {
         } else {
             System.out.println("There's no notification, but the client was activated.");
         }
-    }
+    }    
    
 }
